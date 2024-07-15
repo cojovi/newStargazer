@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Blog", link: "#testimonials" },
+  { name: "WhatPeopleSay", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -141,7 +141,7 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "/github.svg",
     nameImg: "/cloudName.svg",
   },
   {
