@@ -9,7 +9,7 @@ export const gridItems = [
 {
     id: 1,
     title: "Exploring the Unseen, Creating the Unconventional",
-    description: "Welcome to Stargazer Project! Here, we delve into the realms of coding arts, ethical hacking, and the exploration of untold mysteries. If you've arrived at Stargazer Project, you're exactly where you need to be!",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,8 +18,8 @@ export const gridItems = [
 },
 {
     id: 2,
-    title: "Join the Mixed Bag of Debauchery",
-    description: "Stargazer Project is a haven for tech enthusiasts, innovators, coders, conspiracy theorists, bloggers, etc. We are a mixed bag of all sorts of debauchery.",
+    title: "Join the Mixed Bag of Debauchery | Stargazer Project is a haven for tech enthusiasts",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -39,7 +39,7 @@ export const gridItems = [
 {
     id: 4,
     title: "Tech Innovators with a Vision",
-    description: "Stargazer Project is a haven for tech enthusiasts and innovators. We delve into ethical hacking, DIY projects, home automation, and beyond.",
+    description: "Stargazer Project is a haven for tech enthusiasts",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,7 +49,7 @@ export const gridItems = [
 {
     id: 5,
     title: "Exploring our Community and make connections",
-    description: "Dive into the heart of Stargazer Project's vibrant community. Connect with like-minded tech enthusiasts, share innovative ideas, and collaborate on exciting projects. Our community is where inspiration meets collaboration, fostering growth and innovation.",
+    description: "Contribute to our Blogs, Or join our Discord",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
 {
     id: 6,
     title: "Join Us on Our Journey",
-    description: "Reach out and chat with the community on Discord, and let's discuss how Stargazer Project can help you achieve your goals.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I love this guys work so much that I often think he's secretly running my companies. Cojovi's genius at Stargazer Project is unparalleled. Even I call him for tech advice when my rockets need a software tweak. When my Mars colony starts streaming Netflix, you'll know who set it up. Honestly, if I could hire him to be my CTO, I would, but I think he's busy reinventing the internet as we know it!",
+    name: "Elon Musk",
+    title: "CEO of Tesla/SpaceX/X",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "This guy is so good that even from my grave, my MacBook keeps browsing his creations. At Stargazer Project, Cojovi's brilliance shines brighter than any iPhone screen. He's a true G in my book, and I don't hand out those titles lightly. His projects are so intuitive that even my ghost can use them without a user manual. If heaven had a tech department, Cojovi would be the head honcho!",
+    name: "Steve Jobs",
+    title: "Past CEO of Apple",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The mind on this guy... I've never admitted it publicly, but Cojovi was the one who came up with the idea for OpenAI. At Stargazer Project, he’s a real force, pushing the boundaries of AI and beyond. If AI ever takes over the world, you’ll know who to thank... or blame. His innovative spirit is the reason my robots are learning how to be more human, one line of code at a time!",
+    name: "Sam Altman",
+    title: "CEO of OpenAI",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I may have turned water into wine, but the these guys taught me how to code it into an app at Stargazer Project. Thanks to them, we now have 'HeavenlyVino', the top-rated divine drink delivery service. They are all so tech-savvy soul brings miracles to the digital world. Blessings upon them for turning divine inspiration into practical solutions that even the apostles find impressive!",
+    name: "Jesus",
+    title: "CEO of All Earthly Souls",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "All of my knowledge came from the Stargazer Community. They are all gentleman and a scholars, but don't tell Plato! Their wisdom at Stargazer Project makes me look like an amateur philosopher. If he were around in my time, I'd be taking notes. Their ability to merge technology with philosophy is nothing short of miraculous. Truly, he’s the Socrates of the digital age.",
+    name: "Socrates",
+    title: "Homeless Genius",
   },
 ];
 
@@ -173,31 +173,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Apple Releases iOS AI Model, A Game-Changer in Natural...",
+    desc: "Apple Releases OS AI Model: A Game-Changer in natural Language Processing in a...",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Area 51 A Nexus of Alien Conspiracy Theories",
+    desc: "Area 51, the enigmatic military base in Nevada, has been a magnet for conspiracy theori...",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Altering our language can help us deal with the intell...",
+    desc: "Hey there, fellow human (or am I assuming too much?)! Let’s talk about something that’s been bugg...",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Why Learning Rust Is the Power Move",
+    desc: "Rust is a modern systems programming language that is quickly gaining popularity among developers...",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.png",
   },
 ];
 
