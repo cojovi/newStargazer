@@ -140,15 +140,15 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Github",
     img: "/github.svg",
-    nameImg: "/cloudName.svg",
+    nameImg: "/Github.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Ollama",
+    img: "/ollama.svg",
+    nameImg: "/ollama.svg",
   },
   {
     id: 3,
@@ -158,9 +158,9 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Netlify",
+    img: "/netlify.svg",
+    nameImg: "/netlify.svg",
   },
   {
     id: 5,

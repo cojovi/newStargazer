@@ -7,17 +7,17 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Explore the Future of Tech"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Dive into the world of cutting-edge technology with Stargazer Project. From ethical 
+          hacking to home automation, discover how we're pushing the boundaries of innovation. 
+          Click to explore our latest projects and see how we're shaping the future."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +26,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Join Our Vibrant Community"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Become a part of a dynamic network of tech enthusiasts and innovators. At Stargazer Project, 
+          connect with like-minded individuals, share your ideas, and collaborate on groundbreaking projects. 
+          ck to learn more about our community and start your journey with us."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +48,11 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Unleash Your Inner Creator"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Turn your visionary ideas into reality with Stargazer Project. Whether you're into DIY projects, 
+          coding, or exploring new tech, we provide the tools and support you need to succeed. Click to discover 
+          how you can start creating today."
         >
           <CanvasRevealEffect
             animationSpeed={3}

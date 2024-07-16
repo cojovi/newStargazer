@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Exploring the Unseen, Creating the Unconventional"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
@@ -62,7 +62,7 @@ const Hero = () => {
 
           <a href="#about">
             <MagicButton
-              title="Our Assets"
+              title="Keep Scolling"
               icon={<FaLocationArrow />}
               position="right"
             />
