@@ -1,3 +1,6 @@
+// Mark this file as a Client Component
+"use client"; 
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { useEffect } from "react"; // Import useEffect for chatbot script
