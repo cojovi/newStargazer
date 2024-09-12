@@ -1,6 +1,15 @@
-"use client"; // Client Component
+"use client"; // Ensure this is a Client Component
 
 import { useEffect } from "react";
+
+// Extend the global Window interface to recognize `myChatWidget`
+declare global {
+  interface Window {
+    myChatWidget: {
+      load: (config: { assistantId: string; apiKey: string }) => void;
+    };
+  }
+}
 
 const Chatbot = () => {
   useEffect(() => {
@@ -18,7 +27,7 @@ const Chatbot = () => {
     document.body.appendChild(script);
   }, []);
 
-  return null; // Chatbot is script-based, so no need to render any UI
+  return null;
 };
 
 export default Chatbot;
