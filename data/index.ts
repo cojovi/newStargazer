@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "StargazerProject.xyz | Innovation Meets Community",
-    des: "A dynamic ecosystem where AI innovation, thought-provoking discussions, and community collaboration converge. Explore cutting-edge AI solutions, join vibrant discussions, and shape the future of technology.",
+    title: "TechDoneCheap.com | Tech Excellence, Budget Friendly..",
+    des: "Building high end tech, with with as little money as possible, repurposing old devices, building our own devices, all the fun McGuyver stuff.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/www.stargazerproject.xyz",
+    link: "/www.techdonecheap.com",
   },
   {
     id: 3,
