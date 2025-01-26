@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Between conventional internet and the Dark Web
+            Bridging Innovation, Imagination, and Community
           </p>
 
           {/**
@@ -52,12 +52,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Exploring the Unseen, Creating the Unconventional"
+            words="Where AI Meets Human Curiosity"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Welcome to Stargazer Project! We represent so many things here, if you found yourseld here, your in the right place!
+            Explore cutting-edge AI solutions, join thought-provoking discussions, and be part of a vibrant community of forward thinkers.
           </p>
 
           <a href="#about">
