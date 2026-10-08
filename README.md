@@ -1,685 +1,202 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
-    </a>
-  <br />
+<!-- COJOVI / SIGNAL — Stargazer Project edition. Keep readme-assets/ with this file. -->
+<!-- Presentation adapted for the cojovi fork; upstream identity retained. -->
+<a name="top"></a>
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
+<p align="center">
+  <img src="readme-assets/banner.svg" alt="Stargazer Project — an animated front door to projects, ideas, and community." width="100%">
+</p>
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
+<h1 align="center">Stargazer Project</h1>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+<p align="center">
+  <strong>Explore the projects. Follow the curiosity. Find the community.</strong><br>
+  A Next.js showcase with animated project cards, a 3D globe, and a community-focused landing page.
+</p>
 
-## 📋 <a name="table">Table of Contents</a>
+<p align="center">
+  <img src="readme-assets/stack.svg" alt="Next.js 14 · React 18 · Three.js · Tailwind CSS" width="640">
+</p>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#quickstart">Preparation</a> ·
+  <a href="#configuration">Content</a> ·
+  <a href="#validation">Validation</a> ·
+  <a href="#security">Boundaries</a>
+</p>
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+<a name="overview"></a>
+## `> meet_stargazer`
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+**Stargazer Project is a community-themed adaptation of the JavaScript Mastery portfolio.** This repository, `cojovi/newStargazer`, turns the original portfolio sections into an introduction to projects, technology interests, blog teasers, and community participation.
 
-<a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+The presentation combines **Next.js 14.1.4, React 18, TypeScript, Tailwind CSS, Three.js, and Framer Motion**. Its content is maintained in source, not through an admin dashboard.
 
-## <a name="introduction">🤖 Introduction</a>
+| Explore | Experience | Connect |
+| :--- | :--- | :--- |
+| Browse a bento introduction, project cards, and blog teasers. | See spotlight text, an animated globe, moving cards, and canvas reveals. | Follow separately hosted destinations or copy the configured contact address. |
 
-Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+> [!IMPORTANT]
+> **This is a showcase, not an AI platform or community backend.** It does not implement the products described on its cards, host a blog, manage memberships, or provide a working chat service. Several navigation and setup details need review before a new deployment.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+<a name="architecture"></a>
+## `> trace_the_page`
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<p align="center">
+  <img src="readme-assets/flow.svg" alt="Source-edited content → Next.js landing page and animated components → project discovery and external community destinations." width="100%">
+</p>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- Next.js
-- Three.js
-- Framer Motion
-- Tailwind CSS
-
-## <a name="features">🔋 Features</a>
-
-👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
-
-👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
-
-👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
-
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
-
-👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
-
-👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
-
-👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
-
-and many more, including code architecture and reusability 
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
+```text
+Source content + local assets
+            ↓
+Next.js App Router
+├─ root layout + theme provider
+└─ landing page
+   ├─ hero + bento grid
+   ├─ project + testimonial cards
+   └─ blog teasers + approach + footer
+            ↓
+Visitor navigation / contact-copy interaction
 ```
 
-**Installation**
+[app/page.tsx](app/page.tsx) composes the landing page. [data/index.ts](data/index.ts) supplies the shared navigation and card arrays, while several components also contain their own copy and destinations.
 
-Install the project dependencies using npm:
+The globe and canvas effects are visual components, not live operational data. The `workExperience` array now supplies **blog teasers**, despite its inherited identifier. The footer links to an external community rather than creating one inside the application.
+
+Sentry is a separate telemetry integration: client, server, and edge configuration files initialize it, and [next.config.mjs](next.config.mjs) wraps the Next build with Sentry configuration. It is not needed to explain the page's content model.
+
+<a name="quickstart"></a>
+## `> prepare_a_preview`
+
+**Prerequisites:** Git, Node.js, and npm compatible with the pinned Next.js release. [package.json](package.json) has no Node engine declaration; the package name remains **`portfolio`**.
+
+### 1. Get this fork
+
+```bash
+git clone --branch main https://github.com/cojovi/newStargazer.git
+cd newStargazer
+```
+
+### 2. Review the integration and layout defaults
+
+Before running a personal copy:
+
+1. Review the Sentry configuration files and build wrapper. Remove or replace inherited telemetry destinations and project settings with ones you control.
+2. Review [app/Chatbot.tsx](app/Chatbot.tsx). It is not mounted by the current page/layout and includes a credential-like literal; do not enable it unchanged.
+3. Inspect [app/layout.tsx](app/layout.tsx): it currently returns a fragment containing `head` and `body`, but **no required root `html` element**. Correct that in your own development work before expecting a healthy Next.js preview.
+4. Replace contact data, external destinations, and any presentation copy you do not intend to publish.
+
+### 3. Install and preview after those checks
 
 ```bash
 npm install
+npm run dev -- --hostname 127.0.0.1
 ```
 
-**Running the Project**
+Use **http://127.0.0.1:3000**, or the address Next prints if the port changes. These are the repository's development commands, not a claim that the current revision starts successfully.
+
+There is no tracked environment template or application-specific `.env` loader. Integration settings are currently embedded in source; adding an environment variable alone does not replace them.
+
+<a name="configuration"></a>
+## `> shape_the_content`
+
+| Change | Source of truth |
+| :--- | :--- |
+| Hero introduction and primary scroll action | [Hero.tsx](components/Hero.tsx) |
+| Navigation, bento, projects, quotes, blog teasers | [data/index.ts](data/index.ts) |
+| Project-card destination | [RecentProjects.tsx](components/RecentProjects.tsx) |
+| Clipboard contact and decorative stack labels | [BentoGrid.tsx](components/ui/BentoGrid.tsx) |
+| Community call to action and footer | [Footer.tsx](components/Footer.tsx) |
+| Hover-reveal approach cards | [Approach.tsx](components/Approach.tsx) |
+| Page title, description, font, and theme defaults | [app/layout.tsx](app/layout.tsx) |
+| Colors, motion utilities, and global styles | [tailwind.config.ts](tailwind.config.ts) and [globals.css](app/globals.css) |
+
+The theme provider defaults to dark mode and enables system-theme support. The Inter font is configured through `next/font/google`; account for font-fetch requirements when preparing a build environment.
+
+Keep the existing data identifiers when editing content. Renaming `workExperience`, for example, requires updating the component import; changing the displayed copy does not.
+
+<a name="usage"></a>
+## `> follow_the_links`
+
+The intended experience is one scrolling page: introduction, projects, community quotes, blog teasers, approach cards, then contact.
+
+- **About and Contact:** point to sections with `about` and `contact` IDs.
+- **Projects:** navigation points to `#projects`, but the current project component does not define that ID.
+- **Project cards:** the component supplies one shared destination to every `PinContainer`; the individual `projects[].link` values are not used for navigation.
+- **Blog teasers:** display source-edited text and images, not fetched articles or internal article routes.
+- **Social icons:** the footer renders decorative icon containers without link destinations.
+- **Contact copy:** writes a source-configured address to the clipboard; it does not send email.
+
+Treat these as review points for adapting the showcase, not instructions to visit or validate someone else's live services.
+
+<a name="validation"></a>
+## `> check_the_showcase`
+
+After resolving the preparation items, maintainers can use the defined scripts:
 
 ```bash
-npm run dev
+npm run lint
+npm run build
+npm run start -- --hostname 127.0.0.1
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+`start` serves an existing production build; it is not a substitute for `build`. There is no test script or tracked automated test suite in this revision.
 
-## <a name="snippets">🕸️ Snippets</a>
+**Application builds and tests were not run for this documentation work.**
 
-<details>
-<summary><code>data/index.ts</code></summary>
+- [ ] Restore the required root layout structure and verify page startup.
+- [ ] Confirm telemetry ownership and intended data collection before loading a preview.
+- [ ] Make each project card open its intended destination.
+- [ ] Add or revise the missing Projects anchor.
+- [ ] Verify contact-copy behavior and all community links with approved values.
+- [ ] Review quote content as parody/presentation copy, not verified endorsements.
+- [ ] Check case-sensitive asset references, including the company wordmark paths.
+- [ ] Test keyboard access, touch interactions, reduced motion, and small screens.
+- [ ] Run lint and build in a controlled environment before deploying.
 
-```typescript
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
+<a name="source-map"></a>
+## `> explore_the_source`
 
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
+| Path | Responsibility |
+| :--- | :--- |
+| [app/](app/) | App Router entry, layout, theme provider, and Sentry examples. |
+| [components/](components/) | Landing-page sections. |
+| [components/ui/](components/ui/) | Globe, canvas, bento, navigation, and animation primitives. |
+| [data/](data/) | Content arrays, globe data, and confetti animation data. |
+| [public/](public/) | Static artwork and icons used by the application. |
+| [next.config.mjs](next.config.mjs) | Next configuration and Sentry build integration. |
+| [package.json](package.json) | Actual package identity, dependencies, and commands. |
 
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-];
+The tracked `app/layout copy.tsx` and `app/globals copy.css` are alternate files, not the active root layout and stylesheet. No GitHub Actions workflow is tracked at the reviewed revision.
 
-export const projects = [
-  {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
-];
+<a name="security"></a>
+## `> keep_clear_edges`
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+- **Credentials:** treat the literal in the unused chatbot component as exposed if it was ever valid. Revoke or rotate it; do not copy it into browser-delivered source or public reports.
+- **Telemetry:** Sentry destinations are already configured. Review tracing, replay collection, source-map upload behavior, and project ownership before running or building a copy.
+- **Intentional errors:** the Sentry example page and API route are diagnostics. The example API throws an error by design; it is not an application service.
+- **Deployment:** `npm run deploy` invokes `vercel --prod`. This is a production action, not a local verification step.
+- **Private settings:** `.gitignore` covers `.env*.local`, not every possible environment filename. Keep secrets out of tracked files.
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+### Upstream and license
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
+This repository is a fork of **[adrianhajdin/portfolio](https://github.com/adrianhajdin/portfolio)**, the JavaScript Mastery Next.js portfolio tutorial. The Stargazer content and this presentation belong to the fork's adaptation; the original scaffold is not represented as a new, wholly independent implementation.
 
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
-];
-```
+**No root license file was found in the reviewed revision.** Preserve upstream attribution and applicable third-party notices; clarify reuse rights rather than assuming a license from public availability. Website footer wording is not a substitute for license terms.
 
-</details>
+---
 
-<details>
-<summary><code>tailwind.config.ts</code></summary>
+<p align="center">
+  <img src="readme-assets/signal-divider.svg" alt="" width="100%">
+</p>
 
-```ts
-import type { Config } from "tailwindcss";
+<p align="center">
+  <strong>Curious ideas. Visible work. Clear destinations.</strong><br>
+  <sub>A <a href="https://github.com/cojovi">Cody / cojovi</a> fork · <a href="https://cojovi.com">cojovi.com</a><br>
+  Upstream: adrianhajdin/portfolio · Presented in COJOVI / SIGNAL.</sub>
+</p>
 
-const svgToDataUri = require("mini-svg-data-uri");
-
-const colors = require("tailwindcss/colors");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
-
-const config = {
-  darkMode: ["class"],
-  content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
-    "./data/**/*.{ts,tsx}",
-  ],
-  prefix: "",
-  theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
-    extend: {
-      colors: {
-        black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
-        },
-        white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
-        },
-        blue: {
-          "100": "#E4ECFF",
-        },
-        purple: "#CBACF9",
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-        spotlight: {
-          "0%": {
-            opacity: "0",
-            transform: "translate(-72%, -62%) scale(0.5)",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translate(-50%,-40%) scale(1)",
-          },
-        },
-        shimmer: {
-          from: {
-            backgroundPosition: "0 0",
-          },
-          to: {
-            backgroundPosition: "-200% 0",
-          },
-        },
-        moveHorizontal: {
-          "0%": {
-            transform: "translateX(-50%) translateY(-10%)",
-          },
-          "50%": {
-            transform: "translateX(50%) translateY(10%)",
-          },
-          "100%": {
-            transform: "translateX(-50%) translateY(-10%)",
-          },
-        },
-        moveInCircle: {
-          "0%": {
-            transform: "rotate(0deg)",
-          },
-          "50%": {
-            transform: "rotate(180deg)",
-          },
-          "100%": {
-            transform: "rotate(360deg)",
-          },
-        },
-        moveVertical: {
-          "0%": {
-            transform: "translateY(-50%)",
-          },
-          "50%": {
-            transform: "translateY(50%)",
-          },
-          "100%": {
-            transform: "translateY(-50%)",
-          },
-        },
-        scroll: {
-          to: {
-            transform: "translate(calc(-50% - 0.5rem))",
-          },
-        },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-        spotlight: "spotlight 2s ease .75s 1 forwards",
-        shimmer: "shimmer 2s linear infinite",
-        first: "moveVertical 30s ease infinite",
-        second: "moveInCircle 20s reverse infinite",
-        third: "moveInCircle 40s linear infinite",
-        fourth: "moveHorizontal 40s ease infinite",
-        fifth: "moveInCircle 20s ease infinite",
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
-      },
-    },
-  },
-  plugins: [
-    require("tailwindcss-animate"),
-    addVariablesForColors,
-    function ({ matchUtilities, theme }: any) {
-      matchUtilities(
-        {
-          "bg-grid": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
-            )}")`,
-          }),
-          "bg-grid-small": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="8" height="8" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
-            )}")`,
-          }),
-          "bg-dot": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none"><circle fill="${value}" id="pattern-circle" cx="10" cy="10" r="1.6257413380501518"></circle></svg>`
-            )}")`,
-          }),
-        },
-        { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
-      );
-    },
-  ],
-} satisfies Config;
-
-function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  );
-
-  addBase({
-    ":root": newVars,
-  });
-}
-
-export default config;
-```
-
-</details>
-
-<details>
-<summary><code>globals.css</code></summary>
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border !scroll-smooth;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  button {
-    @apply active:outline-none;
-  }
-}
-
-@layer utilities {
-  .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
-  }
-
-  .black-gradient {
-    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
-  }
-}
-```
-
-</details>
-
-
-<details>
-<summary><code>Linear Gradient</code></summary>
-
-```js
-style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
-```
-</details>
-
-
-## <a name="links">🔗 Assets</a>
-
-Assets used in the project can be found [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
+<p align="center"><a href="#top">↑ Back to the signal</a></p>
